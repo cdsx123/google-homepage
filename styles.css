@@ -6,29 +6,59 @@ img{
     left: 50%;
     top: 198px;
 }
-form {
+ .sign-in{
+    background-color: #4387fd;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 8px;
+    width:50px;
+    text-align:center;
+    height:15px;
+    line-height: 15px;
+    
+ }
+input {
     display: block;
-    position: fixed;
-    margin-left: -136px;
+    position: absolute;
+    margin-left: -250px;
     left: 50%;
     top: 317px;
+    width: 500px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: 0.5px solid black;
 }
  nav{
      width: 100vw;
-
  }
 header nav a{
-    display: inline-flex;
+    display: inline-block;
     margin-top: 10px;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     position: relative;
     padding: 6px;
-    text-align: center
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+ .list{
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png'); 
+    background-position-x: -132px;
+    background-position-y: -40px;
+    background-size: 528px 61px;
+    height: 3px;
+    width: 25px;
     
+ }
+header nav a:hover{
+    text-decoration: underline;
 }
  .right-side{
-    left: 912px
+    left: 925px
 }
  .left-end{
      margin-left: 8px
