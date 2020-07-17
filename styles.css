@@ -43,7 +43,7 @@ header nav a{
     font-size: 13px;
     color: black;
 }
-nav a{
+nav a, p{
     display: inline-block;
     font-family: arial, sans-serif;
     position: relative;
@@ -56,14 +56,17 @@ nav a{
     display: inline-block;
     height: 22px;
     width: 22px;
-    top: 7px;
+    top: 5px;
     
  }
 nav a:hover{
     text-decoration: underline;
 }
- .right-side{
-    left: 925px
+ .right-header{
+    left: 925px;
+}
+.right-footer{
+    left: 708px;
 }
  .left-end{
      margin-left: 8px
@@ -76,10 +79,36 @@ nav a:hover{
     position: fixed;
     width: 1400px;
     border: 2px solid #f2f2f2;
-    bottom: 0;
+    
     left:0;
     background-color: #f2f2f2;
-    line-height: 40px;
-    border-top: 0.1px solid rgb(207, 207, 207);
+    
+    border-top: 0.1px solid rgb(224, 224, 224);
+    height: 38px;
+    
+ }
+  #country{
+     bottom:38px;
+ }
+
+  #bottom{
+     bottom: 0px;
+     line-height: 28px;
+ }
+ footer nav a{
+     position: relative;
+     color: rgb(105, 105, 105);
+     padding-left: 17px;
+     font-size: 14px;
+     left:3;
+ }
+ footer nav p{
+    position: relative;
+    color: rgb(105, 105, 105);
+    padding-left: 18px;
+    font-size: 17px;
+    bottom: 6px;
+    left: 7px;
+    line-height: 3px;
  }
  
